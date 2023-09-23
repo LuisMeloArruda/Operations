@@ -9,11 +9,11 @@ public class Application {
         int b = scanner.nextInt();
 
         if (operation.equals("sum")){
-            System.out.println(a + b);
+            System.out.println("Result: " + (a + b));
         } else if (operation.equals("mul")) {
-            System.out.println(a * b);
+            System.out.println("Result: " + (a * b));
         } else if (operation.equals("div")){
-            System.out.println(a / b);
+            System.out.println("Result: " + (a / b));
         }
     }
 }
